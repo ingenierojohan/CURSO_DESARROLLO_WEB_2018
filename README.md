@@ -57,4 +57,19 @@ Dentro de nuestro header en este body tenemos las siguientes etiquetas:
 <h1> </h1> Son los títulos que lleva nuestro documento. Hay seis niveles el h1 es el de mayor importancia y solo debe haber uno por documento, muy importante para los buscadores.
 <article> </article> Lo utilizamos para elementos que se repiten como noticias, entrdas de blog etc.
 
-Recuerden que podemos agregar comentarios con <!-- “Mensaje” -->
+Recuerden que podemos agregar comentarios con `<!-- “Mensaje” -->`
+
+### Formas de los Estilo
+Tenemos 3 formas de agregar los estilos : 
+
+* __En Linea:__  Tenemos que agregar el estilo a cada etiqueta
+Pero esto hace que nuestro archivo quede muy difícil de leer
+
+* __Etiqueta:__ Creamos una etiqueta `<style>` que va dentro de nuestra etiqueta `<head>`
+Hace el archivo muy extenso y complicado de leer a la hora de editarlo
+Pero facilita la carga a la hora de pedir el archivo al servidor, logrando que cargue mas rápido.  
+
+*__Archivo Externo:__ Creamos un archivo externo de tipo .css y lo enlazamos a nuestro html con la etiqueta
+```<link rel=“stylesheet” href=“nombre-del-archivo.css” />```  
+Tarda un poco mas en carga a la hora de pedirlo al servidor
+Pero es mas fácil de leer a la hora de editarlo.

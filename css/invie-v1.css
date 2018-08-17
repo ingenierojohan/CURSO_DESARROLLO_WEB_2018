@@ -1,0 +1,47 @@
+/* Selector Universal */
+* {
+    border: 1px solid red;
+    margin: 10px;
+}
+
+/* Selector de Etiqueta */
+header {
+    background : blue;
+}
+
+section {
+    background: purple;
+}
+
+
+/* selector descendente */
+article h3 {
+    color : green;
+}
+
+body {
+    background: peru;
+}
+
+/* Selectores de Clase */
+.title-a {
+    background: yellow;
+} 
+
+.title-b {
+    background: salmon;
+}
+
+/* Selector de ID */
+#header {
+    border: 3px solid black;
+}
+
+#portada {
+    border: 3px solid orange;
+}
+
+#guitarra {
+    border: 3px solid brown;
+}
+
